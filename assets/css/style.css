@@ -1626,12 +1626,20 @@
 /* Progress Bar */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
- * 1. Set default font family to sans-serif.
+ * 1. Set default font family to Yekan.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+ 
+ @font-face {
+	font-family: 'Yekan';
+	src: url('web_Yekan.eot?#iefix') format('eot'),
+	url('web_Yekan.woff') format('woff'), 
+	url('web_Yekan.svg#BYekan') format('svg'), 
+	url('web_Yekan.ttf') format('truetype');
+}
 html {
-  font-family: sans-serif;
+  font-family: Yekan;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -4322,17 +4330,6 @@ a.waves-effect .waves-ripple {
 /*
  * 1300 +
  */
-@font-face {
-  font-family: 'WMitra';
-  src: url("../fonts/MitraWeb-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'WMitra';
-  src: url("../fonts/MitraWeb-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
 
 .clear:before, .clear:after {
   content: ' ';
@@ -4359,12 +4356,12 @@ body {
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
- * 1. Set default font family to sans-serif.
+ * 1. Set default font family to Yekan.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: Yekan;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -4767,12 +4764,12 @@ th {
     .header .about img {
       width: 150px; }
     .header .about h1 {
-      font-family: WMitra;
+      font-family: Yekan;
       margin: 0;
       font-size: 2.5rem;
       font-weight: bold; }
     .header .about p {
-      font-family: WMitra;
+      font-family: Yekan;
       margin: 0;
       font-size: 1rem;
       font-weight: bold; }
@@ -4922,7 +4919,7 @@ th {
             position: relative;
             display: table-cell;
             vertical-align: middle;
-            font-family: WMitra, "courier-std";
+            font-family: Yekan, "courier-std";
             font-size: 1.2rem;
             font-weight: bold; }
 
@@ -4977,11 +4974,11 @@ paper-ripple {
             -ms-flex-pack: justify;
                 justify-content: space-between; }
         .hero.center.four div h6 {
-          font-family: WMitra;
+          font-family: Yekan;
           margin: 1rem 0;
           width: 50%; }
       .hero.center.four .foot {
-        font-family: WMitra;
+        font-family: Yekan;
         font-size: .9rem;
         font-weight: normal;
         padding: 0;
@@ -5190,7 +5187,7 @@ footer {
     .main .container article {
       position: relative; }
       .main .container article h1 {
-        font-family: WMitra, "courier-std";
+        font-family: Yekan, "courier-std";
         margin-bottom: 0; }
         .main .container article h1 a {
           color: #333;
@@ -5201,11 +5198,11 @@ footer {
           .main .container article h1 a:hover {
             color: #0000CD; }
       .main .container article h4 {
-        font-family: WMitra, "courier-std";
+        font-family: Yekan, "courier-std";
         font-weight: bold;
         margin-top: 0; }
       .main .container article .content {
-        font-family: WMitra, "courier-std";
+        font-family: Yekan, "courier-std";
         font-size: 1.25rem;
         font-weight: normal; }
         .main .container article .content .imgpost {
@@ -5236,7 +5233,7 @@ footer {
             color: #444; }
 
 .more {
-  font-family: WMitra;
+  font-family: Yekan;
   color: #333;
   font-weight: bold;
   direction: ltr;
@@ -5256,7 +5253,7 @@ footer {
     background: #eee; }
 
 .button {
-  font-family: WMitra;
+  font-family: Yekan;
   font-weight: bold;
   color: #333;
   padding: .5em .57em;
@@ -5540,7 +5537,7 @@ blockquote {
     padding: 1rem 0;
     display: inline-block;
     font-size: 1.2rem;
-    font-family: WMitra;
+    font-family: Yekan;
     text-decoration: none;
     float: left; }
     @media only screen and (min-device-width: 20em) and (max-device-width: 30em) {
@@ -5580,7 +5577,7 @@ blockquote {
   .newer i, .previous i {
     position: relative;
     top: 5px;
-    font-family: WMitra, serif;
+    font-family: Yekan, serif;
     right: 5px; }
 
 .older, .next {
@@ -5589,7 +5586,7 @@ blockquote {
   .older i, .next i {
     position: relative;
     top: 5px;
-    font-family: WMitra, serif;
+    font-family: Yekan, serif;
     left: 5px; }
 
 .previous, .next {
