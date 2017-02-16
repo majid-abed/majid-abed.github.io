@@ -1,12 +1,12 @@
 {
-  "name": "HosseinKarami",
+  "name": "Majid-Abed",
   "version": "0.0.0",
   "authors": [
     "Hossein Karami <hosseinkarami@outlook.com>"
   ],
   "description": "My Polymer Experiment",
   "license": "MIT",
-  "homepage": "http://hosseinkarami.com",
+  "homepage": "https://majid-abed.github.io",
   "private": true,
   "ignore": [
     "**/.*",
