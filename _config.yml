@@ -1,0 +1,16 @@
+# Site settings
+title: مجید عابد | Majid Abed
+email: m.abed1371@gmail.com
+description: توسعه دهنده وب سایت های شخصی و فروشگاهی
+baseurl: "https://majid-abed.github.io/"
+url: "https://majid-abed.github.io"
+twitter: _chatlovely
+github:  majid-abed
+behance: majid-abed
+# Build settings
+markdown: kramdown
+permalink: pretty
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "/blog/page:num/"
+exclude: ["node_modules", "gulpfile.js", "package.json"]
